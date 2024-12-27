@@ -1,1 +1,1 @@
-# RM-s-Caf-Add-on
+# RM-s-Café-Add-on
