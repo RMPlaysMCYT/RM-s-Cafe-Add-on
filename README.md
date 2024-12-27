@@ -1,3 +1,5 @@
+![alt text](https://github.com/RMPlaysMCYT/RM-s-Cafe-Add-on/blob/main/Projectt%203.png)
+
 ### RM's Café Add-on
 
 Transform your Minecraft world into a coffee lover's paradise with **RM's Café Add-on**! This delightful expansion adds a touch of caffeine-fueled fun to your survival gameplay. Whether you’re looking to energize your adventures or set up the coziest café in the Overworld, this add-on has got you covered.  
