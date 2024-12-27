@@ -1,0 +1,64 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"RMPlaysMC YT"
+		],
+		"product_type": "addon",
+		"license": "MIT License"
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			21,
+			20
+		],
+		"uuid": "1af32493-30b0-447a-994d-372d0ccaf986",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "b730eee5-a925-4e25-b550-da7bf8178ef1",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"entry": "RMSCafeAddon/main.js",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "9e5465c6-0489-4e32-b4f3-1dbdb306fcc4",
+			"version": [1, 0, 0]
+		}
+	],
+	"capabilities": [
+		"script_eval"
+	],
+	"dependencies": [
+		{
+			"uuid": "1bba22bb-87d1-4d5c-90d3-d8172f7ec543",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.13.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.3.0"
+		}
+	]
+}

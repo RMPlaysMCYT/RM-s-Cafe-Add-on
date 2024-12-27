@@ -1,0 +1,131 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "rm_cafe:rm_cafe_frame_1",
+			"menu_category": {
+				"category": "construction",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"rm_cafe:sofa_left": [
+					false,
+					true
+				],
+				"rm_cafe:sofa_right": [
+					false,
+					true
+				]
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					},
+					"tag:rm_cafe:SofaNorth": {}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					},
+					"tag:rm_cafe:SofaWest": {}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					},
+					"tag:rm_cafe:SofaSouth": {}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					},
+					"tag:rm_cafe:SofaEast": {}
+				}
+			}
+		],
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "rm_cafe_frame_1",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:tick": {
+				"looping": true,
+				"interval_range": [
+					2,
+					2
+				]
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.rm_cafe_frame_1",
+				"bone_visibility": {
+					"mainhead1_a": "q.block_state('rm_cafe:sofa_left') == 0",
+					"mainhead1_b": "q.block_state('rm_cafe:sofa_right') == 0",
+					"mainhead0": "q.block_state('rm_cafe:sofa_left') == 0 && q.block_state('rm_cafe:sofa_right') == 0",
+					"mainhead3": "q.block_state('rm_cafe:sofa_left') == 1 && q.block_state('rm_cafe:sofa_right') == 1",
+					"mainhead1": "q.block_state('rm_cafe:sofa_left') == 0 && q.block_state('rm_cafe:sofa_right') == 1",
+					"mainhead2": "q.block_state('rm_cafe:sofa_right') == 0 && q.block_state('rm_cafe:sofa_left') == 1"
+				}
+			},
+			"tag:sofa": {},
+			"tag:pafa": {},
+			"minecraft:custom_components": [
+				"rm_cafe:frame_connections"
+			],
+			"tag:rm_cafe_frame_1": {},
+			"minecraft:selection_box": true,
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
+			"minecraft:loot": "loot_tables/RMSCafeAddon/rm_cafe_frame_1.json"
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "rm_cafe:vending_machine"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:iron_ingot"
+			},
+			"L": {
+				"item": "minecraft:redstone"
+			},
+			"S": {
+				"item": "minecraft:black_terracotta"
+			},
+			"K": {
+				"item": "minecraft:chest"
+			}
+		},
+		"pattern": [
+			"SBS",
+			"SKS",
+			"SLS"
+		],
+		"result": {
+			"item": "rm_cafe:coffee_vending_machine"
+		}
+	}
+}

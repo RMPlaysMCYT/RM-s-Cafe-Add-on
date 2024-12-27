@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "rm_cafe:rm_cafe_chair"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_ingot"
+			},
+			"S": {
+				"item": "minecraft:white_wool"
+			}
+		},
+		"pattern": [
+			"S  ",
+			"SSS",
+			"A A"
+		],
+		"result": {
+			"item": "rm_cafe:rm_cafe_chair"
+		}
+	}
+}

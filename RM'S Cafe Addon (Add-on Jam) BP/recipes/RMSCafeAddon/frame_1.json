@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "rm_cafe:rm_cafe_frame_1"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"V": {
+				"item": "minecraft:book"
+			},
+			"S": {
+				"item": "minecraft:white_wool"
+			},
+			"L": {
+				"item": "minecraft:stick"
+			}
+		},
+		"pattern": [
+			"SSS",
+			"SLS",
+			"SVS"
+		],
+		"result": {
+			"item": "rm_cafe:rm_cafe_frame_1"
+		}
+	}
+}

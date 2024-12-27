@@ -1,0 +1,89 @@
+{
+   "content" : [
+      {
+         "path" : "scripts/RMSCafeAddon/main.js"
+      },
+      {
+         "path" : "LICENSE.txt"
+      },
+      {
+         "path" : "blocks/RM'sCafe/coffee_machine.block.json"
+      },
+      {
+         "path" : "blocks/RM'sCafe/rm_cafe_frame_1.json"
+      },
+      {
+         "path" : "blocks/RM'sCafe/coffee_vending_machine.block.json"
+      },
+      {
+         "path" : "entities/seatbro.json"
+      },
+      {
+         "path" : "blocks/RM'sCafe/rm_cafe_chair.geo.json"
+      },
+      {
+         "path" : "blocks/RM'sCafe/rm_cafe_table.json"
+      },
+      {
+         "path" : "contents.json"
+      },
+      {
+         "path" : "items/RMSCafeAddon/americano.json"
+      },
+      {
+         "path" : "items/RMSCafeAddon/cafe_au_delight.json"
+      },
+      {
+         "path" : "items/RMSCafeAddon/cappuccinio.json"
+      },
+      {
+         "path" : "items/RMSCafeAddon/classic_coffee.json"
+      },
+      {
+         "path" : "recipes/RMSCafeAddon/frame_1.json"
+      },
+      {
+         "path" : "items/RMSCafeAddon/lattte.json"
+      },
+      {
+         "path" : "loot_tables/RMSCafeAddon/rm_cafe_chair.json"
+      },
+      {
+         "path" : "loot_tables/RMSCafeAddon/rm_cafe_coffee_vendo.json"
+      },
+      {
+         "path" : "loot_tables/RMSCafeAddon/rm_cafe_coffee_machi.json"
+      },
+      {
+         "path" : "loot_tables/RMSCafeAddon/rm_cafe_frame_1.json"
+      },
+      {
+         "path" : "recipes/RMSCafeAddon/table.json"
+      },
+      {
+         "path" : "recipes/RMSCafeAddon/coffee_machine.json"
+      },
+      {
+         "path" : "loot_tables/RMSCafeAddon/rm_cafe_table1.json"
+      },
+      {
+         "path" : "manifest.json"
+      },
+      {
+         "path" : "pack_icon.png"
+      },
+      {
+         "path" : "recipes/RMSCafeAddon/chair_1.json"
+      },
+      {
+         "path" : "recipes/RMSCafeAddon/vending_machine.json"
+      },
+      {
+         "path" : "texts/en_US.lang"
+      },
+      {
+         "path" : "texts/languages.json"
+      }
+   ],
+   "version" : 1
+}
