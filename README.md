@@ -7,13 +7,13 @@ Transform your Minecraft world into a coffee lover's paradise with **RM's Café 
 #### **Key Features**  
 
 1. **5 Unique Coffee Varieties**
-Brew and enjoy five different kinds of coffee, each with distinct properties. From a simple cup of black coffee to rich specialty blends, there's a drink for every mood and need. Each type of coffee offers unique buffs or effects, giving you the energy to mine, build, and explore.
+   - Brew and enjoy five different kinds of coffee, each with distinct properties. From a simple cup of black coffee to rich specialty blends, there's a drink for every mood and need. Each type of coffee offers unique buffs or effects, giving you the energy to mine, build, and explore.
 
-2. **2 Coffee Machines
-- **Simple Coffee Maker:** A no-frills appliance ideal for simple coffee recipes that can be brewed within a short time.
-  **Coffee Vending Machine:** A coffee vending machine is a self-service device designed to dispense coffee and other hot beverages quickly and conveniently. These machines are widely used in workplaces, public spaces, and cafes due to their ease of operation and ability to serve multiple users efficiently. 
+2. **2 Coffee Machines:**
+   - **Simple Coffee Maker:** A no-frills appliance ideal for simple coffee recipes that can be brewed within a short time.
+   - **Coffee Vending Machine:** A coffee vending machine is a self-service device designed to dispense coffee and other hot beverages quickly and conveniently. These machines are widely used in workplaces, public spaces, and cafes due to their ease of operation and ability to serve multiple users efficiently. 
 
-3. **Survival-Friendly Design**
+4. **Survival-Friendly Design**
 All items, machines, and ingredients are crafted or found naturally in survival mode. Grow coffee plants, harvest beans, and craft your café essentials. The add-on is completely seamless with the survival experience, making it challenging and rewarding.  
 
 
