@@ -1,0 +1,21 @@
+{
+	"resource_pack_name": "RM'S Cafe Addon (Add-on Jam)",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"rm_cafe:classic_coffee":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/items/classic_coffee"
+		},
+		"rm_cafe:americano":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/items/americano"
+		},
+		"rm_cafe:cafe_au_delight":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/items/cafe_au_delight"
+		},
+		"rm_cafe:cappuccino":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/items/cappucino"
+		},
+		"rm_cafe:latte":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/items/latte"
+		}
+	}
+}

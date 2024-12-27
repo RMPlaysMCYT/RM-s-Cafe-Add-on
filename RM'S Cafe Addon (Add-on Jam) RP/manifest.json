@@ -1,0 +1,46 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"RMPlaysMC YT"
+		],
+		"product_type": "addon",
+		"license": "MIT License"
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			21,
+			20
+		],
+		"uuid": "1bba22bb-87d1-4d5c-90d3-d8172f7ec543",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "1bc88af9-ab1a-4011-9228-f39918993e30",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "1af32493-30b0-447a-994d-372d0ccaf986",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

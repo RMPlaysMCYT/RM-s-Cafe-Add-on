@@ -1,0 +1,92 @@
+{
+   "content" : [
+      {
+         "path" : "biomes_client.json"
+      },
+      {
+         "path" : "LICENSE.txt"
+      },
+      {
+         "path" : "contents.json"
+      },
+      {
+         "path" : "blocks.json"
+      },
+      {
+         "path" : "textures/RM_s_Cafe_Add_-_On/items/cappucino.png"
+      },
+      {
+         "path" : "sounds/sound_definitions.json"
+      },
+      {
+         "path" : "manifest.json"
+      },
+      {
+         "path" : "textures/RM_s_Cafe_Add_-_On/items/cafe_au_delight.png"
+      },
+      {
+         "path" : "texts/en_US.lang"
+      },
+      {
+         "path" : "models/blocks/RM_s_Cafe_Add_-_On/coffee_vending_machine.geo.json"
+      },
+      {
+         "path" : "models/blocks/RM_s_Cafe_Add_-_On/rm_cafe_chair.geo.json"
+      },
+      {
+         "path" : "textures/RM_s_Cafe_Add_-_On/items/vending_machine.png"
+      },
+      {
+         "path" : "textures/RM_s_Cafe_Add_-_On/blocks/rm_cafe_frame_1.png"
+      },
+      {
+         "path" : "models/blocks/RM_s_Cafe_Add_-_On/rm_cafe_frame_1.geo.json"
+      },
+      {
+         "path" : "models/blocks/RM_s_Cafe_Add_-_On/rm_cafe_table.geo.json"
+      },
+      {
+         "path" : "pack_icon.png"
+      },
+      {
+         "path" : "models/blocks/RM_s_Cafe_Add_-_On/vending_machine.geo.json"
+      },
+      {
+         "path" : "sounds.json"
+      },
+      {
+         "path" : "texts/languages.json"
+      },
+      {
+         "path" : "textures/RM_s_Cafe_Add_-_On/blocks/coffee_vending_machine.png"
+      },
+      {
+         "path" : "textures/RM_s_Cafe_Add_-_On/blocks/rm_cafe_chair.png"
+      },
+      {
+         "path" : "textures/RM_s_Cafe_Add_-_On/blocks/rm_cafe_table.png"
+      },
+      {
+         "path" : "textures/RM_s_Cafe_Add_-_On/blocks/vending_machine.png"
+      },
+      {
+         "path" : "textures/RM_s_Cafe_Add_-_On/items/americano.png"
+      },
+      {
+         "path" : "textures/RM_s_Cafe_Add_-_On/items/classic_coffee.png"
+      },
+      {
+         "path" : "textures/RM_s_Cafe_Add_-_On/items/latte.png"
+      },
+      {
+         "path" : "textures/flipbook_textures.json"
+      },
+      {
+         "path" : "textures/item_texture.json"
+      },
+      {
+         "path" : "textures/terrain_texture.json"
+      }
+   ],
+   "version" : 1
+}

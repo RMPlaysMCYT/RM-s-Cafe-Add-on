@@ -1,0 +1,27 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"rm_cafe:coffee_machine":{
+		"textures": "rm_cafe_coffee_machine",
+		"sound": "anvil"
+	},
+	"rm_cafe:rm_cafe_chair":{
+		"textures": "rm_cafe_chair",
+		"sound": "wood"
+	},
+	"rm_cafe:rm_cafe_table":{
+		"textures":"rm_cafe_table_1_a",
+		"sound": "wood"
+	},
+	"rm_cafe:rm_cafe_frame_1":{
+		"textures": "rm_cafe_table_1_a",
+		"sound": "wood"
+	},
+	"rm_cafe:coffee_vending_machine":{
+		"textures": "rm_cafe_coffee_vending_machine",
+		"sound": "wood"
+	}
+}

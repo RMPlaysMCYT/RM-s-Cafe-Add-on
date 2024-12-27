@@ -1,0 +1,23 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "RM'S Cafe Addon (Add-on Jam)",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"rm_cafe_coffee_machine":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/blocks/coffee_vending_machine"
+		},
+		"rm_cafe_table_1_a":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/blocks/rm_cafe_table"
+		},
+		"rm_cafe_chair":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/blocks/rm_cafe_chair"
+		},
+		"rm_cafe_frame_1":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/blocks/rm_cafe_frame_1"
+		},
+		"rm_cafe_coffee_vending_machine":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/blocks/vending_machine"
+		}
+	}
+}

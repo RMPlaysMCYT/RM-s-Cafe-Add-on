@@ -1,0 +1,18 @@
+pack.name=RM'S Cafe Addon (Add-on Jam) RP
+pack.description=This is the work of mine but you are free to o anything, modify, altering and mixing to your addon is welcome ~LINEBREAK~ This addon was under MIT License so no worries
+
+entity.rm_cafe:seatbro.name=Seatbro
+
+item.rm_cafe:americano=Americano [RM's Café Add-on]
+item.rm_cafe:cafe_au_delight=Cafe Au Delight [RM's Café Add-on]
+item.rm_cafe:cappuccinio=Cappuccino [RM's Café Add-on]
+item.rm_cafe:classic_coffee=Classic Coffee [RM's Café Add-on]
+item.rm_cafe:lattte=Lattte [RM's Café Add-on]
+
+item.spawn_egg.entity.rm_cafe:seatbro.name=Spawn Seatbro
+
+tile.rm_cafe:coffee_vending_machine.name=Coffee Vending Machine [RM's Café Add-on]
+tile.rm_cafe:rm_cafe_chair.name=Rm Cafe Chair [RM's Café Add-on]
+tile.rm_cafe:rm_cafe_frame_1.name=Rm Cafe Frame 1 [RM's Café Add-on]
+tile.rm_cafe:rm_cafe_table.name=Rm Cafe Table [RM's Café Add-on]
+tile.rm_cafe:coffee_machine.name=Coffee Machine [RM's Café Add-on]
