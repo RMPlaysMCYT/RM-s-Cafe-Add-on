@@ -1,10 +1,10 @@
 {
 	"$schema": "https://raw.githubusercontent.com/Bedrock-OSS/regolith-schemas/main/config/v1.4.json",
 	"author": "RMPlaysMC YT",
-	"name": "RM'S Cafe Addon (Add-on Jam) BP",
+	"name": "RM'S Cafe Addon (Add-on Jam)",
 	"packs": {
-		"behaviorPack": "./BP",
-		"resourcePack": "./RP"
+		"behaviorPack": "BP",
+		"resourcePack": "RP"
 	},
 	"regolith": {
 		"dataPath": "./packs/data",
