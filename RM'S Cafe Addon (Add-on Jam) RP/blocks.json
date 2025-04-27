@@ -5,6 +5,7 @@
 		0
 	],
 	"rm_cafe:coffee_machine":{
+		"isotropic": false,
 		"textures": "rm_cafe_coffee_machine",
 		"sound": "anvil"
 	},
