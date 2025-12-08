@@ -1,3 +1,6 @@
+import { DEBUGASSHOLE } from "./main";
+import { ActionFormData } from "@minecraft/server-ui";
+
 export function rmCafeAddonInformation(player) {
   const GettingStarted = new ActionFormData();
   GettingStarted.title("Welcome");
