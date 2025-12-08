@@ -1,16 +1,15 @@
 {
-    "format_version": "1.20.80",
+    "format_version": "1.21.20",
     "minecraft:item": {
         "description": {
-            "identifier": "rm_cafe:rmcafe_addon_book",
-            "is_experimental": false,
-            "menu_category": {
-                "category": "items"
-            }
+            "identifier": "rm_cafe:rmcafe_addon_book"
         },
-        "components": {
-            "minecraft:max_stack_size": 1,
-            "minecraft:icon": "rm_cafe:book"
-        }
+		"components": {
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:use_modifiers": {
+				"use_duration": 1
+			},
+			"minecraft:icon": "rm_cafe:book"
+		}
     }
 }

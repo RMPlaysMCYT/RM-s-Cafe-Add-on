@@ -9,10 +9,13 @@ import {
     world,
     system
 } from '@minecraft/server';
+
 import * as mc from '@minecraft/server';
+
 import {
     ActionFormData
 } from '@minecraft/server-ui';
+
 import { givePlayerBook } from './bookFunctions';
 
 
@@ -221,3 +224,4 @@ mc.world.afterEvents.playerSpawn.subscribe((event) => {
 })
 console.log("RM's Café Add-on was Loaded on your device");
 console.warn("RM's Café Add-on was Loaded on your device")
+
