@@ -1,4 +1,3 @@
-import { DEBUGASSHOLE } from "./main";
 import { ActionFormData } from "@minecraft/server-ui";
 
 export function rmCafeAddonInformation(player) {
@@ -42,7 +41,7 @@ function _Page1GettingStarted(player) {
     if (r.canceled) return;
     switch (r.selection) {
       case 0:
-        _Page1GettingStarted(player);
+        rmCafeAddonInformation(player);
         break;
       case 1:
         break;
@@ -61,7 +60,7 @@ function _Page2Food_and_Drinks(player){
     if (r.canceled) return;
     switch (r.selection) {
       case 0:
-        _Page1GettingStarted(player);
+        rmCafeAddonInformation(player);
         break;
       case 1:
         break;
@@ -73,14 +72,14 @@ function _AboutTheAddOn(player){
   const _AboutTheAddOn = new ActionFormData();
   _AboutTheAddOn.title("About The Add-on");
   _AboutTheAddOn.body(
-    "RM's Cafe Add-On\nCreated by RMPlaysMC Studios by RMPlaysMCYT\This is a community build which the repository is open at https://github.com/RMPlaysMCYT/RM-s-Cafe-Add-on"
+    "RM's Cafe Add-On \nCreated by RMPlaysMC Studios by RMPlaysMCYT \nThis is a community build which the repository is open at https://github.com/RMPlaysMCYT/RM-s-Cafe-Add-on"
   );
   _AboutTheAddOn.button("Go Back");
   _AboutTheAddOn.show(player).then((r) => {
     if (r.canceled) return;
     switch (r.selection) {
       case 0:
-        _Page1GettingStarted(player);
+        rmCafeAddonInformation(player);
         break;
       case 1:
         break;

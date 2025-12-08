@@ -16,7 +16,7 @@ import {
     ActionFormData
 } from '@minecraft/server-ui';
 
-import { givePlayerBook } from './bookFunctions';
+import { givePlayerBook } from './bookFunctions.js';
 
 
 /////MAIN CUSTOM COMPONENT LIBRARY/////

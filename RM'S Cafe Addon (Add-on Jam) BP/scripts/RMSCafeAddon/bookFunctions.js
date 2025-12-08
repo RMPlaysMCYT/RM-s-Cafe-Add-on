@@ -2,6 +2,7 @@ var NameSpaces = "RMCafeAddon101";
 var NamingBtch = "RMCafeAddon101";
 
 import * as mc from '@minecraft/server';
+import { ActionFormData } from '@minecraft/server-ui';
 import { rmCafeAddonInformation } from './addonInformation';
 
 mc.world.beforeEvents.itemUse.subscribe((event) => {
@@ -13,7 +14,7 @@ mc.world.beforeEvents.itemUse.subscribe((event) => {
         })
     }
 });
-
+const DEBUGASSHOLE = false;
 
 export function givePlayerBook(player){
     player.runCommand(`execute as @s[tag=!${NameSpaces.substring(0,NamingBtch.length -1)}] at @s run give @s rm_cafe:rmcafe_addon_book`);
