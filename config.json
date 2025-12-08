@@ -3,8 +3,8 @@
 	"author": "RMPlaysMC YT",
 	"name": "RM'S Cafe Addon (Add-on Jam)",
 	"packs": {
-		"behaviorPack": "BP",
-		"resourcePack": "RP"
+		"behaviorPack": "RM'S Cafe Addon (Add-on Jam) BP",
+		"resourcePack": "RM'S Cafe Addon (Add-on Jam) RP"
 	},
 	"regolith": {
 		"dataPath": "./packs/data",

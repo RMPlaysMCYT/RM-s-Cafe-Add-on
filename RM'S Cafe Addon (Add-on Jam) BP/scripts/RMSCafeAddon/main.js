@@ -9,10 +9,11 @@ import {
     world,
     system
 } from '@minecraft/server';
-
+import * as mc from '@minecraft/server';
 import {
     ActionFormData
 } from '@minecraft/server-ui';
+import { givePlayerBook } from './bookFunctions';
 
 
 /////MAIN CUSTOM COMPONENT LIBRARY/////
@@ -213,5 +214,10 @@ var SetInPutaMode = class {
 };
 
 //// Addon Initialization
+
+mc.world.afterEvents.playerSpawn.subscribe((event) => {
+    const rmCafeAddonInit = event;
+    givePlayerBook(rmCafeAddonInit.player);
+})
 console.log("RM's Café Add-on was Loaded on your device");
 console.warn("RM's Café Add-on was Loaded on your device")

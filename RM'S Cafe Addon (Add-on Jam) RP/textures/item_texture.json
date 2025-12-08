@@ -16,6 +16,9 @@
 		},
 		"rm_cafe:latte":{
 			"textures": "textures/RM_s_Cafe_Add_-_On/items/latte"
+		},
+		"rm_cafe:book":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/items/rm_cafe_book"
 		}
 	}
 }
