@@ -18,6 +18,27 @@
 		},
 		"rm_cafe_coffee_vending_machine":{
 			"textures": "textures/RM_s_Cafe_Add_-_On/blocks/vending_machine"
+		},
+		"rm_cafe_chalkboard":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/blocks/rm_cafe_chalkboard"
+		},
+
+
+		
+		"rm_cafe_hanging_pot_1":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/blocks/rm_cafe_hanging_pot_1"
+		},
+		"rm_cafe_hanging_pot_1_1":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/blocks/rm_cafe_hanging_pot_1_1"
+		},
+		"rm_cafe_hanging_pot_1_2":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/blocks/rm_cafe_hanging_pot_1_2"
+		},
+		"rm_cafe_hanging_pot_1_3":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/blocks/rm_cafe_hanging_pot_1_3"
+		},
+		"rm_cafe_hanging_pot_1_4":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/blocks/rm_cafe_hanging_pot_1_4"
 		}
 	}
 }

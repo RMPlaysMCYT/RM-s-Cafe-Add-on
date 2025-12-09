@@ -224,4 +224,3 @@ mc.world.afterEvents.playerSpawn.subscribe((event) => {
 })
 console.log("RM's Café Add-on was Loaded on your device");
 console.warn("RM's Café Add-on was Loaded on your device")
-
