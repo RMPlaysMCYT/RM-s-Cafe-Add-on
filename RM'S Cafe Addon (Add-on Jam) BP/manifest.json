@@ -5,7 +5,8 @@
 			"RMPlaysMC YT"
 		],
 		"product_type": "addon",
-		"license": "MIT License"
+		"license": "MIT License",
+		"url": "https://github.com/RMPlaysMCYT/RM-s-Cafe-Add-on"
 	},
 	"header": {
 		"name": "pack.name",
