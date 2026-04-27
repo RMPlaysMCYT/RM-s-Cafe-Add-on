@@ -14,6 +14,7 @@ mc.world.beforeEvents.itemUse.subscribe((event) => {
         })
     }
 });
+
 const DEBUGASSHOLE = false;
 
 export function givePlayerBook(player){

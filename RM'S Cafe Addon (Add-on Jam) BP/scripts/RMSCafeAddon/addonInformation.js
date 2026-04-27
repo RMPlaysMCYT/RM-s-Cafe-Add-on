@@ -53,7 +53,7 @@ function _Page2Food_and_Drinks(player){
   const Page2Food_and_Drinks = new ActionFormData();
   Page2Food_and_Drinks.title("Food and Drinks");
   Page2Food_and_Drinks.body(
-    "Hello and welcome to RM's Cafe Add-on!\n\nThis add-on was made by Ronnel Mitra (RMPlaysMC)\n\nIf you have any questions or suggestions, please let me know!\n\nDiscord: RonnelMitra#9360\n\n Features:\n - Add 10 Sets of Cafe you will like\n - A vending machine, best for survival gameplay with friends or build a cafe with this add-on\n - Cooking Machine, great for cooking food especially deserts and treats"
+    "Here's The Items Lists on this Addon\n 1. Cafe Americano\n 2. Cafe Au Delight \n 3. Capuccino \n 4. Classic Coffee(Anyone's Favorite) \n 5. Latte"
   );
   Page2Food_and_Drinks.button("Go Back");
   Page2Food_and_Drinks.show(player).then((r) => {
