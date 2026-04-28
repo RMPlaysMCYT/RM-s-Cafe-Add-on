@@ -23,16 +23,11 @@ import { givePlayerBook } from './bookFunctions.js';
 world.beforeEvents.worldInitialize.subscribe((event) => {
 
     ////THIS IS FOR CUSTOM BLOCKS SECTION
-    ////THIS IS FOR CUSTOM BLOCKS SECTION
-    ////THIS IS FOR CUSTOM BLOCKS SECTION
     event.blockComponentRegistry.registerCustomComponent("rm_cafe:coffee_vending_machine_component", new RMCAFECoffeeVendingMachine());
     event.blockComponentRegistry.registerCustomComponent("rm_cafe:coffee_machine_component", new RMCAFECoffeeMachine());
     event.blockComponentRegistry.registerCustomComponent("rm_cafe:frame_connections", new RMCafeFrameConnections());
 
 
-    ////THIS IS FOR CUSTOM ITEMS SECTION
-    ////THIS IS FOR CUSTOM ITEMS SECTION
-    ////THIS IS FOR CUSTOM ITEMS SECTION
     ////THIS IS FOR CUSTOM ITEMS SECTION
     event.itemComponentRegistry.registerCustomComponent("rm_cafe:always_alert", new SetInPutaMode);
 })
