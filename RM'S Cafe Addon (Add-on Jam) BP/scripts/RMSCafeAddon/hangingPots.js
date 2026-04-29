@@ -6,6 +6,7 @@ world.beforeEvents.world.initialize.subscribe((event) => {
 
 class HangingPot{
     onPlayerInteract(event){
+        const { player, block, dimension} = event;
         
     }
 }
