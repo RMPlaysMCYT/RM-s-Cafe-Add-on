@@ -28,7 +28,10 @@
 			"textures": "textures/RM_s_Cafe_Add_-_On/items/rm_cafe_book"
 		},
 		"rm_cafe:cereal_milk":{
-			"textures": "textures/RM_s_Cafe_Add_-_On/items/rm_cafe_book"
+			"textures": "textures/RM_s_Cafe_Add_-_On/items/rm_cafe_cereal_milk"
+		},
+		"rm_cafe:crushed_ice":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/items/rm_cafe_crushed_ice"
 		}
 	}
 }
