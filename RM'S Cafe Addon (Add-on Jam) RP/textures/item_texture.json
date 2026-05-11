@@ -35,6 +35,9 @@
 		},
 		"rm_cafe:affrogato":{
 			"textures": "textures/RM_s_Cafe_Add_-_On/items/affrogato"
+		},
+		"rm_cafe:espresso":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/items/espresso"
 		}
 	}
 }
