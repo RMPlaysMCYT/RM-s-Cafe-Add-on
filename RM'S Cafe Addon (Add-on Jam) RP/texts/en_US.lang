@@ -9,6 +9,13 @@ item.rm_cafe:cappuccinio=Cappuccino [RM's Café Add-on]
 item.rm_cafe:classic_coffee=Classic Coffee [RM's Café Add-on]
 item.rm_cafe:lattte=Lattte [RM's Café Add-on]
 
+
+item.rm_cafe:flat_white=Flat White [RM's Café Add-on]
+item.rm_cafe:caramel_machiatto=Caramel Machiatto [RM's Café Add-on]
+item.rm_cafe:cereal_milk=Cereal Milk [RM's Café Add-on]
+item.rm_cafe:affrogato=Afrogatto [RM's Café Add-on]
+item.rm_cafe:espresso=Espresso [RM's Café Add-on]
+
 item.spawn_egg.entity.rm_cafe:seatbro.name=Spawn Seatbro
 
 tile.rm_cafe:coffee_vending_machine.name=Coffee Vending Machine [RM's Café Add-on]
