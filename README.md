@@ -25,3 +25,10 @@ All items, machines, and ingredients are crafted or found naturally in survival 
 Start your journey as a barista and redefine your Minecraft experience with **RM's Café Add-on** today!
 
 THIS ADD-ON IS OPENSOURCE EDITION SO ANYONE CAN MODIFY
+
+Version 1.0.0 - 2024
+- First Release
+
+Version 2.0.0 - 2026
+- Add Few Cups of coffee variants
+- Add Few ingredients

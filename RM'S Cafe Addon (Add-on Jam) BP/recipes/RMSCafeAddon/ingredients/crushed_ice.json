@@ -1,26 +1,16 @@
 {
 	"format_version": "1.12",
-	"minecraft:recipe_shaped": {
+	"minecraft:recipe_shapeless": {
 		"description": {
 			"identifier": "rm_cafe:crushed_ice"
 		},
 		"tags": [
 			"crafting_table"
 		],
-		"key": {
-			"B": {
-				"item": "minecraft:iron_ingot"
-			},
-			"Z": {
-				"item": "minecraft:redstone"
-			},
-			"S": {
-				"item": "minecraft:black_terracotta"
+		"ingredients": [
+			{
+				"item": "minecraft:ice"
 			}
-		},
-		"pattern": [
-			"SBS",
-			"SZS"
 		],
 		"result": {
 			"item": "rm_cafe:crushed_ice"
