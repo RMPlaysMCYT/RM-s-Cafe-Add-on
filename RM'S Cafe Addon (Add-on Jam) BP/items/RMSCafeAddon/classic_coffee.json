@@ -6,7 +6,7 @@
 		},
 		"components": {
 			"minecraft:custom_components": [
-				"rm_cafe:always_alert"
+				"rm_cafe:regenerate_health"
 			],
 			"minecraft:can_destroy_in_creative": false,
 			"minecraft:food": {

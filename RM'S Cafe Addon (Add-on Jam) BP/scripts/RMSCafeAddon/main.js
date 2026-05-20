@@ -31,6 +31,7 @@ world.beforeEvents.worldInitialize.subscribe((event) => {
     ////THIS IS FOR CUSTOM ITEMS SECTION
     event.itemComponentRegistry.registerCustomComponent("rm_cafe:always_alert", new SetInPutaMode);
     event.itemComponentRegistry.registerCustomComponent("rm_cafe:speed_mode", new SetActiveMode);
+    event.itemComponentRegistry.registerCustomComponent("rm_cafe:regenerate_health", new SetHealingMode);
 })
 /////MAIN CUSTOM COMPONENT LIBRARY/////
 
@@ -222,6 +223,13 @@ var SetActiveMode = class {
     onConsume(event) {
         event.source.addEffect("minecraft:jump_boost", 500, {amplifier: 2});
         event.source.onScreenDisplay.setActionBar("You're in speed mode");
+    };
+};
+
+var SetHealingMode = class {
+    onConsume(event){
+        event.source.addEffect("minecraft:regeneration", 200, {amplifier: 5});
+        event.source.onScreenDisplay.setActionBar("Get You'self cool at the moment");
     };
 };
 
