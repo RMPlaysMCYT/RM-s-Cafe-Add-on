@@ -31,7 +31,7 @@
 			"textures": "textures/RM_s_Cafe_Add_-_On/items/rm_cafe_cereal_milk"
 		},
 		"rm_cafe:crushed_ice":{
-			"textures": "textures/RM_s_Cafe_Add_-_On/items/rm_cafe_crushed_ice"
+			"textures": "textures/RM_s_Cafe_Add_-_On/items/rm_cafe_ice_cubes"
 		},
 		"rm_cafe:affrogato":{
 			"textures": "textures/RM_s_Cafe_Add_-_On/items/affrogatto"
