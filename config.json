@@ -1,24 +1,49 @@
 {
-	"$schema": "https://raw.githubusercontent.com/Bedrock-OSS/regolith-schemas/main/config/v1.4.json",
-	"author": "RMPlaysMC YT",
-	"name": "RM'S Cafe Addon (Add-on Jam)",
-	"packs": {
-		"behaviorPack": "RM'S Cafe Addon (Add-on Jam) BP",
-		"resourcePack": "RM'S Cafe Addon (Add-on Jam) RP"
-	},
-	"regolith": {
-		"dataPath": "./packs/data",
-		"filterDefinitions": {},
-		"formatVersion": "1.4.0",
-		"profiles": {
-			"default": {
-				"export": {
-					"build": "standard",
-					"readOnly": false,
-					"target": "development"
-				},
-				"filters": []
-			}
-		}
-	}
+  "$schema": "https://raw.githubusercontent.com/Bedrock-OSS/regolith-schemas/main/config/v1.4.json",
+  "author": "RMPlaysMC YT",
+  "name": "RM'S Cafe Addon (Add-on Jam)",
+  "packs": {
+    "behaviorPack": "RM'S Cafe Addon (Add-on Jam) BP",
+    "resourcePack": "RM'S Cafe Addon (Add-on Jam) RP"
+  },
+  "regolith": {
+    "dataPath": "./packs/data",
+    "filterDefinitions": {
+      "js_obfuscator": {
+        "url": "github.com/lightyisreal/regolith-filters",
+        "version": "2d6c5aa143d2b4ba26b474a8ac8b2b7ea110f22f"
+      },
+      "mcaddon": {
+        "url": "github.com/lightyisreal/regolith-filters",
+        "version": "2d6c5aa143d2b4ba26b474a8ac8b2b7ea110f22f"
+      }
+    },
+    "formatVersion": "1.4.0",
+    "profiles": {
+      "default": {
+        "export": {
+          "build": "standard",
+          "readOnly": false,
+          "target": "development"
+        },
+        "filters": []
+      },
+      "production": {
+        "export": {
+          "target": "local"
+        },
+        "filters": [
+          {
+            "profile": "default"
+          },
+          {
+            "filter": "js_obfuscator"
+          },
+          {
+            "filter": "mcaddon"
+          }
+        ]
+      }
+    }
+  }
 }
