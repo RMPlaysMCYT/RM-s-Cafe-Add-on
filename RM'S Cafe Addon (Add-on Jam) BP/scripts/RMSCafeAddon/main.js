@@ -178,7 +178,6 @@ var RMCafeFrameConnections = class {
     };
 }
 
-////SEAT SYSTEM
 world.beforeEvents.worldInitialize.subscribe(eventData => {
     eventData.blockComponentRegistry.registerCustomComponent('rm_cafe:sittable_system', {
         onPlayerInteract(e) {
@@ -189,7 +188,6 @@ world.beforeEvents.worldInitialize.subscribe(eventData => {
             const direction = block.permutation.getState("minecraft:cardinal_direction");
             const { x, y, z } = entity.location;
 
-            // Apply rotation to the entity based on the block direction
             switch (direction) {
                 case 'north':
                     entity.teleport(entity.location, { facingLocation: { x, y, z: z + 1 } });
@@ -209,8 +207,6 @@ world.beforeEvents.worldInitialize.subscribe(eventData => {
         }
     });
 });
-
-////Alert Mode
 
 var SetInPutaMode = class {
     onConsume(event) {
@@ -233,7 +229,6 @@ var SetHealingMode = class {
     };
 };
 
-//// Addon Initialization
 
 mc.world.afterEvents.playerSpawn.subscribe((event) => {
     const rmCafeAddonInit = event;
