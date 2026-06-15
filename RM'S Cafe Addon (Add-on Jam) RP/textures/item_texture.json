@@ -37,6 +37,9 @@
 		},
 		"rm_cafe:espresso":{
 			"textures": "textures/RM_s_Cafe_Add_-_On/items/espresso"
+		},
+		"rm_cafe:irish":{
+			"textures": "textures/RM_s_Cafe_Add_-_On/items/espresso"
 		}
 	}
 }
