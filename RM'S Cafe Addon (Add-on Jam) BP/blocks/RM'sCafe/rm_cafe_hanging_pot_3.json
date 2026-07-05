@@ -1,0 +1,153 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "rm_cafe:rm_cafe_hanging_pot_3",
+      "menu_category": {
+        "category": "construction"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:cardinal_direction"]
+        }
+      },
+      "states": {
+        "rm_cafe:flower_types": [
+          "none",
+          "yellow_tulip",
+          "allium",
+          "houstonia",
+          "dandelion"
+        ]
+      }
+    },
+    "components": {
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["down"],
+            "block_filter": [
+              "minecraft:dirt",
+              "minecraft:grass_block",
+              "minecraft:cobblestone",
+              "minecraft:oak_planks",
+              "minecraft:spruce_planks",
+              "minecraft:birch_planks",
+              "minecraft:bamboo_planks",
+              "minecraft:dark_oak_planks",
+              "minecraft:nether_brick",
+              "minecraft:acacia_planks"
+            ]
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/RMSCafeAddon/rm_cafe_hanging_pot_1.json",
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 30
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30
+      },
+      "minecraft:geometry": "geometry.rm_cafe_hanging_pot_1",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "rm_cafe_hanging_pot_1_2",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:map_color": "#7d7d7d"
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north' ",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 0, 0]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south' ",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 180, 0]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east' ",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 270, 0]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west' ",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 90, 0]
+          }
+        }
+      },
+
+      {
+        "condition": "query.block_state('rm_cafe:flower_types')=='none'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rm_cafe_hanging_pot_1",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('rm_cafe:flower_types')=='yellow_tulip'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rm_cafe_hanging_pot_1_1",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('rm_cafe:flower_types')=='allium'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rm_cafe_hanging_pot_1_2",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('rm_cafe:flower_types')=='houstonia'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rm_cafe_hanging_pot_1_3",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('rm_cafe:flower_types')=='dandelion'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rm_cafe_hanging_pot_1_4",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
