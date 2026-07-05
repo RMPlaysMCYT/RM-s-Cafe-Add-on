@@ -24,5 +24,9 @@
 	"rm_cafe:coffee_vending_machine":{
 		"textures": "rm_cafe_coffee_vending_machine",
 		"sound": "wood"
+	},
+	"rm_cafe:rm_cafe_hanging_pot_2":{
+		"textures": "rm_cafe_hanging_pot_1_1",
+		"sound": "wood"
 	}
 }
