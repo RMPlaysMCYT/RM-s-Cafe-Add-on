@@ -2,7 +2,7 @@
   "format_version": "1.21.20",
   "minecraft:block": {
     "description": {
-      "identifier": "rm_cafe:rm_cafe_hanging_pot_4",
+      "identifier": "rm_cafe:rm_cafe_hanging_pot_5",
       "menu_category": {
         "category": "construction"
       },
@@ -53,7 +53,7 @@
       "minecraft:geometry": "geometry.rm_cafe_hanging_pot_1",
       "minecraft:material_instances": {
         "*": {
-          "texture": "rm_cafe_hanging_pot_1_3",
+          "texture": "rm_cafe_hanging_pot_1_4",
           "render_method": "alpha_test"
         }
       },
