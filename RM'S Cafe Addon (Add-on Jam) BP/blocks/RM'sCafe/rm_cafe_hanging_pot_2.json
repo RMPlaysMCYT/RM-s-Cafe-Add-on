@@ -25,19 +25,7 @@
       "minecraft:placement_filter": {
         "conditions": [
           {
-            "allowed_faces": ["down"],
-            "block_filter": [
-              "minecraft:dirt",
-              "minecraft:grass_block",
-              "minecraft:cobblestone",
-              "minecraft:oak_planks",
-              "minecraft:spruce_planks",
-              "minecraft:birch_planks",
-              "minecraft:bamboo_planks",
-              "minecraft:dark_oak_planks",
-              "minecraft:nether_brick",
-              "minecraft:acacia_planks"
-            ]
+            "allowed_faces": ["down"]
           }
         ]
       },
