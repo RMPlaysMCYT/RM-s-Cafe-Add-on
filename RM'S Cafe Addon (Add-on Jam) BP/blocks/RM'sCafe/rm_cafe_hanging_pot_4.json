@@ -53,7 +53,7 @@
       "minecraft:geometry": "geometry.rm_cafe_hanging_pot_1",
       "minecraft:material_instances": {
         "*": {
-          "texture": "rm_cafe_hanging_pot_1_2",
+          "texture": "rm_cafe_hanging_pot_1_3",
           "render_method": "alpha_test"
         }
       },
