@@ -87,6 +87,7 @@ class RMCAFECoffeeVendingMachine {
             .button('Caramel Machaitto\nCost: 1 Iron Ingot', 'textures/RM_s_Cafe_Add_-_On/items/classic_coffee')
             .button('Cereal Milk\nCost: 1 Iron Ingot', 'textures/RM_s_Cafe_Add_-_On/items/classic_coffee');
             .button('Afrogatto\nCost: 1 Iron Ingot', 'textures/RM_s_Cafe_Add_-_On/items/affrogatto');
+            .button('Espresso\nCost: 1 Iron Ingot', 'textures/RM_s_Cafe_Add_-_On/items/espresso');
 
         coffeeVendingUI.show(player).then((response) => {
             if (response.canceled) return;
@@ -101,7 +102,8 @@ class RMCAFECoffeeVendingMachine {
                 "rm_cafe:flat_white",
                 "rm_cafe:caramel_machiatto",
                 "rm_cafe:cereal_milk",
-                "rm_cafe:affrogato"
+                "rm_cafe:affrogato",
+                "rm_cafe:espresso"
             ];
 
             // Give the selected coffee and clear the iron ingot
