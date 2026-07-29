@@ -1,10 +1,4 @@
-////EVERYTHING HERE IS OPEN-SOURCE SO, YOU CAN LEARN IT HERE AND ENJOY
-////FEEL FREE TO CREDIT ME AND GRAB THE LICENSE FROM LICENSE.txt
-////THIS ADD-ON IS UNDER MIT LICENSE
 
-////THE CODES MAY CONTAIN PROFANITY BUT PLEASE UNDERSTAND IT, BUT IF YOUR A KID WHO WANT TO READ THE CODES, BE WARNED
-
-////Coffee Vending System
 import {
     world,
     system
@@ -18,29 +12,16 @@ import {
 
 import { givePlayerBook } from './bookFunctions.js';
 
-
-/////MAIN CUSTOM COMPONENT LIBRARY/////
 world.beforeEvents.worldInitialize.subscribe((event) => {
 
-    ////THIS IS FOR CUSTOM BLOCKS SECTION
     event.blockComponentRegistry.registerCustomComponent("rm_cafe:coffee_vending_machine_component", new RMCAFECoffeeVendingMachine());
     event.blockComponentRegistry.registerCustomComponent("rm_cafe:coffee_machine_component", new RMCAFECoffeeMachine());
     event.blockComponentRegistry.registerCustomComponent("rm_cafe:frame_connections", new RMCafeFrameConnections());
 
-
-    ////THIS IS FOR CUSTOM ITEMS SECTION
     event.itemComponentRegistry.registerCustomComponent("rm_cafe:always_alert", new SetInPutaMode);
     event.itemComponentRegistry.registerCustomComponent("rm_cafe:speed_mode", new SetActiveMode);
     event.itemComponentRegistry.registerCustomComponent("rm_cafe:regenerate_health", new SetHealingMode);
 })
-/////MAIN CUSTOM COMPONENT LIBRARY/////
-
-
-
-/////FUNCTIONS AND SYSTEMS/////
-
-
-
 class RMCAFECoffeeMachine {
     onPlayerInteract(event) {
         const { player, block, dimension } = event;
