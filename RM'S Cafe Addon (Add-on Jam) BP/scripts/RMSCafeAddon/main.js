@@ -214,6 +214,13 @@ var SetHealingMode = class {
     };
 };
 
+var SetHealingMode2 = class {
+    onConsume(event){
+        event.source.addEffect("minecraft:regeneration", 100, {amplifier: 8});
+        event.source.onScreenDisplay.setActionBar("Get You'self cool at the moment");
+    };
+};
+
 
 mc.world.afterEvents.playerSpawn.subscribe((event) => {
     const rmCafeAddonInit = event;
